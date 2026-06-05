@@ -1,0 +1,22 @@
+title = "Jonathan Alexander López UC"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+publishDir = "public"
+
+[params.author]
+  name = "Jonathan Alexander López Uc"
+  headline = "Una simple página de prueba del estudiante Jonathan López de la UTM"
+  image = "author.jpg"
+  links = [
+    { link = { href = "https://github.com/jonathan-361", text = "Mira mi perfil", icon = "github" } },
+    { facebook = "https://www.facebook.com/profile.php?id=100012354815427" },
+    { instagram = "https://www.instagram.com/seishiro_aoshi/" },
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
