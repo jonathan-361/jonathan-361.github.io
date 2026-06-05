@@ -1,3 +1,4 @@
+baseURL = "https://jonathan-361.github.io/"
 theme = "lynx"
 title = "Jonathan López"
 
